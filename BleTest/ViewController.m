@@ -48,6 +48,11 @@
 
 }
 
+-(NSString*)ShowName:(NSString*)name{
+    
+    return [NSString stringWithFormat:@"I'm %@",name];
+}
+
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
@@ -55,6 +60,7 @@
     peripherals = [[NSMutableArray alloc] init];
     
     NSLog(@"Joseph Check!!!");
+    NSLog(@"%@",[self ShowName:@"Joesph"]);
     
 }
 
