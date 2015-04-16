@@ -54,6 +54,8 @@
     _centralManager = [[CBCentralManager alloc] initWithDelegate:self queue:nil];
     peripherals = [[NSMutableArray alloc] init];
     
+    NSLog(@"Joseph Check!!!");
+    
 }
 
 - (void)viewWillDisappear:(BOOL)animated {
