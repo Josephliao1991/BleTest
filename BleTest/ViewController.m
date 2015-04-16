@@ -10,7 +10,6 @@
 
 #define SERVICE_UUID           @"FFE0"
 #define CHARACTERISTIC_UUID    @"FFE1"
-#define HC_08                  @"F4E8CBC5-7D39-2F6B-6013-5FC60DAD07E6"
 
 @interface ViewController ()
 {
